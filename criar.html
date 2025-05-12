@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="criar.css">
+    <title>Criar conta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+</head>
+<body style="background-image:url(https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/393380/ss_a50882d54e8fdf8478bbbe5cd8df4bd086fc1a0f.1920x1080.jpg?t=1734053306); background-size: cover;">
+    <div class="container mt-5">
+        <!-- Formulário-->
+        <form class=" p-4 rounded shadow">
+            <div class="mb-3">
+                <label for="txtnome" class="form-label"><i class="fa-solid fa-user"></i> Nome:</label>
+                <input type="text" class="form-control" name="txtnome" id="txtnome" placeholder="Seu nome" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="txtsenha" class="form-label"><i class="fa-solid fa-lock"></i> Senha:</label>
+                <input type="password" class="form-control" name="txtsenha" id="txtsenha" placeholder="Sua senha" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Sexo:</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="boxnome" id="box1" required>
+                    <label class="form-check-label" for="box1">Masculino</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="boxnome" id="box2">
+                    <label class="form-check-label" for="box2">Feminino</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="boxnome" id="box3">
+                    <label class="form-check-label" for="box3">Assexual</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="boxnome" id="box4">
+                    <label class="form-check-label" for="box4">Não informar</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Servers jogados:</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="boxcheck" id="boxc1">
+                    <label class="form-check-label" for="boxc1">Arena Brasil</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="boxcheck" id="boxc2">
+                    <label class="form-check-label" for="boxc2">FEB</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="boxcheck" id="boxc3">
+                    <label class="form-check-label" for="boxc3">FEB supermod</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="boxcheck" id="boxc4">
+                    <label class="form-check-label" for="boxc4">Reação Brasil</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="boxcheck" id="boxc5">
+                    <label class="form-check-label" for="boxc5">Arena Favela</label>
+                </div>
+            </div>
+
+          
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

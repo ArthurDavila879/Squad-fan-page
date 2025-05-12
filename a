@@ -1,0 +1,8 @@
+font-size: 35px;
+  max-width: 1000px;
+  margin: 50px;
+  background: #000000;
+  cursor: pointer;
+  padding:0px;
+  border-radius:10px;
+  color: white;

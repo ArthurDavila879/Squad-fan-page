@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+a {
+  /*  text-decoration: none   Remove o sublinhado */
+   color: inherit; /* Mantém a cor do texto normal */
+ }
+body{
+color: #DFD1B7;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: "Cabin", sans-serif;
+font-optical-sizing: auto;
+background-image:url(arquivos/65d79cdc3f42e832d1153247_soldiers-standing-with-blue-sky-bg.JPG); background-size: cover; background-position: center;
+ 
+}
+
+form{
+max-width: 400px; width: 100%; background-color: #353434cc;
+}
+#bt:hover{
+  color: #7C6549;
+  ;
+}
+.container td{
+  font-size: 20px;
+  
+}
+.container #bt{
+  text-align: center;
+}
+#bt {
+border-radius: 5px;
+background-color: transparent;
+color: #ffffff;
+border: 2px solid #7C6549;
+font-size: 30px;
+cursor: pointer;
+width: 200px;
+
+}
+
+input {
+ width: 200px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.363);
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  
+}
+
+input::placeholder {
+color: #C7C7C7;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+#text{
+  width: 100%;
+}
+#box{
+position: relative;
+margin: 30px 0 ;
+}
+
+#box i{
+  position: absolute;  
+  bottom: 11px;
+  right: 10px;
+}
+input:focus{
+  border: solid #7C6549;
+  background-color: #c2b07857;
+}
